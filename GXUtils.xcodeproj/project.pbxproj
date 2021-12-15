@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840C258127605C1A0043FF26 /* GXDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C258027605C1A0043FF26 /* GXDevice.m */; };
+		840C258527605CA00043FF26 /* GXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C258427605CA00043FF26 /* GXColor.m */; };
+		840C258B27605CE80043FF26 /* UIColor+GXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C258A27605CE80043FF26 /* UIColor+GXHex.m */; };
 		8438DFF527605A6A00A61DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438DFF427605A6A00A61DBA /* AppDelegate.m */; };
 		8438DFF827605A6A00A61DBA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438DFF727605A6A00A61DBA /* SceneDelegate.m */; };
 		8438DFFB27605A6A00A61DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438DFFA27605A6A00A61DBA /* ViewController.m */; };
@@ -18,6 +21,7 @@
 		8438E01A27605A6B00A61DBA /* GXUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438E01927605A6B00A61DBA /* GXUtilsUITests.m */; };
 		8438E01C27605A6B00A61DBA /* GXUtilsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438E01B27605A6B00A61DBA /* GXUtilsUITestsLaunchTests.m */; };
 		8438E02B27605AD300A61DBA /* GXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438E02A27605AD300A61DBA /* GXUtils.m */; };
+		84BE70E527605E3F00391C87 /* GXAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE70E427605E3F00391C87 /* GXAppInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840C257F27605C1A0043FF26 /* GXDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXDevice.h; sourceTree = "<group>"; };
+		840C258027605C1A0043FF26 /* GXDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXDevice.m; sourceTree = "<group>"; };
+		840C258327605CA00043FF26 /* GXColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXColor.h; sourceTree = "<group>"; };
+		840C258427605CA00043FF26 /* GXColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXColor.m; sourceTree = "<group>"; };
+		840C258927605CE80043FF26 /* UIColor+GXHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GXHex.h"; sourceTree = "<group>"; };
+		840C258A27605CE80043FF26 /* UIColor+GXHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GXHex.m"; sourceTree = "<group>"; };
 		8438DFF027605A6A00A61DBA /* GXUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GXUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8438DFF327605A6A00A61DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8438DFF427605A6A00A61DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +67,8 @@
 		8438E01B27605A6B00A61DBA /* GXUtilsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUtilsUITestsLaunchTests.m; sourceTree = "<group>"; };
 		8438E02927605AD300A61DBA /* GXUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXUtils.h; sourceTree = "<group>"; };
 		8438E02A27605AD300A61DBA /* GXUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXUtils.m; sourceTree = "<group>"; };
+		84BE70E327605E3F00391C87 /* GXAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXAppInfo.h; sourceTree = "<group>"; };
+		84BE70E427605E3F00391C87 /* GXAppInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXAppInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840C257E27605C020043FF26 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				840C257F27605C1A0043FF26 /* GXDevice.h */,
+				840C258027605C1A0043FF26 /* GXDevice.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		840C258227605C8C0043FF26 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				840C258327605CA00043FF26 /* GXColor.h */,
+				840C258427605CA00043FF26 /* GXColor.m */,
+				840C258927605CE80043FF26 /* UIColor+GXHex.h */,
+				840C258A27605CE80043FF26 /* UIColor+GXHex.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		8438DFE727605A6A00A61DBA = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				8438E02C27605AE800A61DBA /* Utils */,
+				840C258227605C8C0043FF26 /* Color */,
+				840C257E27605C020043FF26 /* Device */,
+				84BE70E227605E1900391C87 /* AppInfo */,
 			);
 			path = GXUtils;
 			sourceTree = "<group>";
@@ -155,6 +190,15 @@
 				8438E02A27605AD300A61DBA /* GXUtils.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		84BE70E227605E1900391C87 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84BE70E327605E3F00391C87 /* GXAppInfo.h */,
+				84BE70E427605E3F00391C87 /* GXAppInfo.m */,
+			);
+			path = AppInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840C258127605C1A0043FF26 /* GXDevice.m in Sources */,
 				8438DFFB27605A6A00A61DBA /* ViewController.m in Sources */,
 				8438DFF527605A6A00A61DBA /* AppDelegate.m in Sources */,
 				8438E00627605A6B00A61DBA /* main.m in Sources */,
 				8438E02B27605AD300A61DBA /* GXUtils.m in Sources */,
+				84BE70E527605E3F00391C87 /* GXAppInfo.m in Sources */,
 				8438DFF827605A6A00A61DBA /* SceneDelegate.m in Sources */,
+				840C258B27605CE80043FF26 /* UIColor+GXHex.m in Sources */,
+				840C258527605CA00043FF26 /* GXColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +522,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +550,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
